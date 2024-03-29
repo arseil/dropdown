@@ -2,9 +2,9 @@ import Dropdown from "@/components/dropdown/Dropdown";
 
 export default function Home() {
 
-  const items = ['First', 'Second', 'Thired']
+  const items = [{label: 'First', value: 1}, {label: 'First', value: 1}, {label: 'First', value: 1}]
 
   return (
-    <Dropdown items={items}/>
+    <Dropdown<number> items={items}/>
   )
 }
